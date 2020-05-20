@@ -1,0 +1,206 @@
+@media screen and (max-width: 990px){
+    /* --- header start --- */
+
+    nav{
+        padding: 10px 0 !important;
+    }
+
+    .active{
+        border: none !important;
+    }
+
+    .navber{
+        background-color: var(--bg-clr);
+        -webkit-background-color: var(--bg-clr);
+        -moz-background-color: var(--bg-clr);
+    }
+
+    /* --------banner----- */
+
+    .banner-title{
+        font-size: 40px;
+    }
+
+    .banner-btn a{
+        text-align: center;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .banner-offer{
+        font-size: 20px;
+    }
+
+    /* -------- 1st section ---- */
+
+    .skill-img{
+        margin-top: 25px;
+    }
+
+    .service-cards{
+        height: auto !important;
+    }
+
+    /* ----- 3rd section ------ */
+
+    .clint-reapons{
+        padding: 0;
+    }
+
+    .offers{
+        margin-top: 30px;
+    }
+
+    /* ---- 4th section ---- */
+
+    .portfolio-cards{
+        width: 200px;
+        height: 330px;
+    }
+
+    .portfolio-cards-img{
+        height: 220px;
+    }
+
+    /* --- 5th section --- */
+
+    .categories-card{
+        height: 430px;
+    }
+
+    .categories-card-img{
+        height: 200px;
+    }
+
+    /* ---- 6th section --- */
+
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        height: 100%;
+        width: 100%;
+    }
+
+    /* ---- 7th section --- */
+
+    .contact-form input , .contact-form textarea{
+        width: 500px;
+    }
+
+    /* ---  footer --- */
+
+    .footer-card {
+        margin-bottom: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 780px){
+    /* footer */
+
+    .footer-title{
+        font-size: 20px;
+    }
+
+    .footer-phn{
+        font-size: 18px;
+    }
+
+    .social-contact a{
+        width: auto;
+        height: auto;
+        border: none;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .news-img{
+        width: 200px;
+    }
+
+    .footer-news p{
+        padding: 0 0 0 20px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+    .service-price{
+        padding: 30px !important;
+    }
+
+    .contact-form input, .contact-form textarea{
+        width: 320px;
+    }
+
+    .contact-form textarea{
+        height: 200px;
+    }
+
+    section.categories {
+        padding: 30px 10px 50px 10px;
+    }
+
+    .carousel-item{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 411px){
+    .portfolio-cards{
+        width: 180px;
+    }
+    
+}
+
+@media screen and (max-width: 375px){
+
+    .banner-btn a{
+        margin: 8px;
+    }
+
+    .service-btn{
+        padding: 10px 15px !important;
+    }
+
+    .portfolio-cards{
+        width: 170px;
+    }
+
+    .carousel-item{
+        padding: 20px 40px;
+    }
+
+    .copy-right {
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 320px){
+
+    .contact-form input, .contact-form textarea{
+        width: 280px;
+    }
+
+    .portfolio-cards{
+        width: 145px;
+    }
+
+    .our-client{
+        padding: 50px 10px;
+    }
+    
+}
+
+@media screen and (max-width: 240px){
+    .portfolio-cards{
+        width: 110px;
+    }
+
+    .copy-right {
+        font-size: 10px;
+    }
+    
+}
+
